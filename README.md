@@ -292,7 +292,7 @@ time.sleep(0.001)
 udpClientSocket.close()
 ```
 
-可以看到Ellisys收到了这5笔数据包。
+直接运行`python main.py`，就可以看到Ellisys收到了这5笔数据包。
 
 ![image-20240105171857067](https://markdown-1306347444.cos.ap-shanghai.myqcloud.com/img/image-20240105171857067.png)
 
@@ -300,5 +300,12 @@ udpClientSocket.close()
 
 
 
+## TCP发送示例
 
+尝试用TCP去连接，一直无法成功，而且sample里面也没有TCP的示例，UDP能用就算了。
 
+![image-20240105173246045](https://markdown-1306347444.cos.ap-shanghai.myqcloud.com/img/image-20240105173246045.png)
+
+而且看了下之前的配置参数，上面也只有UDP Port配置，可能TCP不支持吧，暂时不研究了。
+
+![image-20240105173845949](https://markdown-1306347444.cos.ap-shanghai.myqcloud.com/img/image-20240105173845949.png)

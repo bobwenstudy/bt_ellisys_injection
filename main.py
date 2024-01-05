@@ -88,8 +88,9 @@ udpClientSocket.close()
 
 
 
+# HOST = 'localhost'
+# ADDRESS = (HOST, PORT)
 
-
- 
 # tcpClientSocket = socket(AF_INET, SOCK_STREAM)
 # tcpClientSocket.connect(ADDRESS)
+
